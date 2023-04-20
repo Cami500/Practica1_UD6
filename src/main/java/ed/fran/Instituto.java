@@ -1,6 +1,6 @@
 package ed.fran;
 
-public class Escuela {
+public class Instituto {
 
 	public static void main(String[] args) {
 		
