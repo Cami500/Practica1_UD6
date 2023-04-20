@@ -1,6 +1,6 @@
 package ed.fran;
 
-public class Persona {
+public class Alumno {
 	
 	
 	public String nombre;
