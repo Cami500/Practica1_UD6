@@ -4,7 +4,7 @@ public class Escuela {
 
 	public static void main(String[] args) {
 		
-		Persona p = new Persona();
+		Alumno p = new Alumno();
 		
 		p.nombre = "Camilo";
 		p.apellidos = "Juan";
