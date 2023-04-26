@@ -1,4 +1,4 @@
-package ed.camilo;
+package ed.pabloMarin;
 
 public class Escuela {
 
