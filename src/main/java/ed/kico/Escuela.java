@@ -6,10 +6,10 @@ public class Escuela {
 		
 		Persona p = new Persona();
 		
-		p.n = "Kico";
-		p.c = "Carbonell";
-		p.cl = "1º DAW";
-		p.a = 2023;
+		p.nombre = "Kico";
+		p.apellidos = "Carbonell";
+		p.cicloformativo = "1º DAW";
+		p.anyo = 2023;
 		
 		System.out.println(p.toString());
 

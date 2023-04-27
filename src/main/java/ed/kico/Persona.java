@@ -3,18 +3,18 @@ package ed.kico;
 public class Persona {
 	
 	
-	public String n;
-	public String c;
-	public int a;
-	public String cl;
+	public String nombre;
+	public String apellidos;
+	public int anyo;
+	public String cicloformativo;
 	
 	@Override
 	public String toString() {
 		
-		return  "n = " + n + System.lineSeparator() +
-				"c = " + c + System.lineSeparator() +
-				"a = " + a + System.lineSeparator() +
-				"cl = " + cl;
+		return  "nombre = " + nombre + System.lineSeparator() +
+				"apellidos = " + apellidos + System.lineSeparator() +
+				"anyo = " + anyo + System.lineSeparator() +
+				"cicloformativo = " + cicloformativo;
 				
 		
 	}
