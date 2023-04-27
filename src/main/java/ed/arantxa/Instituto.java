@@ -2,14 +2,19 @@ package ed.arantxa;
 
 public class Instituto {
 
+	public static final String kNOMBRE_ALUMNO = "Arantxa";
+	public static final String kAPELLIDOS_ALUMNO = "Gandia";
+	public static final String KCICLO_FORMATIVO = "1º DAW";
+	public static final int kANYO = 2023;
+
 	public static void main(String[] args) {
 		
 		Alumno p = new Alumno();
 		
-		p.nombre = "Arantxa";
-		p.apellidos = "Gandia";
-		p.ciclo_formativo = "1º DAW";
-		p.anyo = 2023;
+		p.nombre = kNOMBRE_ALUMNO;
+		p.apellidos = kAPELLIDOS_ALUMNO;
+		p.ciclo_formativo = KCICLO_FORMATIVO;
+		p.anyo = kANYO;
 		
 		System.out.println(p.toString());
 
