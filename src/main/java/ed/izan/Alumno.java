@@ -1,6 +1,6 @@
 package ed.izan;
 
-public class Persona {
+public class Alumno {
 	public String nombre;
 	public String apellidos;
 	public int anyo;

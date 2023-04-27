@@ -1,10 +1,10 @@
 package ed.izan;
 
-public class Escuela {
+public class Instituto {
 
 	public static void main(String[] args) {
 		
-		Persona p = new Persona();
+		Alumno p = new Alumno();
 		
 		p.nombre = "Izan";
 		p.apellidos = "Blanes";
