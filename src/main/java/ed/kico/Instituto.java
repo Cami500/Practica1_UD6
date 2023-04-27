@@ -1,10 +1,10 @@
 package ed.kico;
 
-public class Escuela {
+public class Instituto {
 
 	public static void main(String[] args) {
 		
-		Persona p = new Persona();
+		Alumno p = new Alumno();
 		
 		p.nombre = "Kico";
 		p.apellidos = "Carbonell";
@@ -12,7 +12,5 @@ public class Escuela {
 		p.anyo = 2023;
 		
 		System.out.println(p.toString());
-
 	}
-
 }
