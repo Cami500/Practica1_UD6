@@ -1,8 +1,6 @@
 package ed.izan;
 
 public class Persona {
-	
-	
 	public String n;
 	public String c;
 	public int a;
