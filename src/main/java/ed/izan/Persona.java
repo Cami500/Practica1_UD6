@@ -1,18 +1,18 @@
 package ed.izan;
 
 public class Persona {
-	public String n;
-	public String c;
-	public int a;
-	public String cl;
+	public String nombre;
+	public String apellidos;
+	public int anyo;
+	public String cicloFormativo;
 	
 	@Override
 	public String toString() {
 		
-		return  "n = " + n + System.lineSeparator() +
-				"c = " + c + System.lineSeparator() +
-				"a = " + a + System.lineSeparator() +
-				"cl = " + cl;
+		return  "n = " + nombre + System.lineSeparator() +
+				"c = " + apellidos + System.lineSeparator() +
+				"a = " + anyo + System.lineSeparator() +
+				"cl = " + cicloFormativo;
 				
 		
 	}
