@@ -1,14 +1,14 @@
 package ed.arthur;
 
-public class Escuela {
+public class Instituto {
 
 	public static void main(String[] args) {
 		
-		Persona p = new Persona();
+		Alumno p = new Alumno();
 		
-		p.n = "Arthur";
+		p.nombre = "Arthur";
 		p.c = "Dias";
-		p.cl = "1º DAW";
+		p.cicloFormativo = "1º DAW";
 		p.a = 2023;
 		
 		System.out.println(p.toString());
