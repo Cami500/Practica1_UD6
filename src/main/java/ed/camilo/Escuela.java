@@ -6,7 +6,7 @@ public class Escuela {
 		
 		Persona p = new Persona();
 		
-		p.n = "Camilo";
+		p.n = "Nuria";
 		p.c = "Juan";
 		p.cl = "1º DAM/DAW";
 		p.a = 2023;
