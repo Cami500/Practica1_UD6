@@ -7,8 +7,8 @@ public class Escuela {
 		Persona p = new Persona();
 		
 		p.n = "Nuria";
-		p.c = "Juan";
-		p.cl = "1º DAM/DAW";
+		p.c = "Boronat";
+		p.cl = "1º DAW";
 		p.a = 2023;
 		
 		System.out.println(p.toString());
