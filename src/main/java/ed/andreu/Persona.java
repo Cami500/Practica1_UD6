@@ -1,17 +1,17 @@
 package ed.andreu;
 
 public class Persona {
-	public String nombre;
-	public String apellidos;
-	public int cualquiera;
-	public String cicloFormativo;
+	public String n;
+	public String c;
+	public int a;
+	public String cl;
 	
 	@Override
 	public String toString() {
 		
-		return  "n = " + nombre + System.lineSeparator() +
-				"c = " + apellidos + System.lineSeparator() +
-				"a = " + cualquiera + System.lineSeparator() +
-				"cl = " + cicloFormativo;
+		return  "n = " + n + System.lineSeparator() +
+				"c = " + c + System.lineSeparator() +
+				"a = " + a + System.lineSeparator() +
+				"cl = " + cl;
 	}
 }
