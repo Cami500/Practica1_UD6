@@ -2,14 +2,21 @@ package ed.Karlos;
 
 public class Instituto {
 
+	
+	
+	public static final int kANYO = 2023;
+	public static final String kCICLO_FORMATIVO = "1º DAW";
+	public static final String kAPELLIDOS_ALUMNO = "Chávez";
+	public static final String kNOMBRE_ALUMNO = "Karlos";
+
 	public static void main(String[] args) {
 		
 		Alumno p = new Alumno();
 		
-		p.nombre = "Karlos";
-		p.apellidos = "Chávez";
-		p.ciclo_formativo = "1º DAW";
-		p.anyo = 2023;
+		p.nombre = kNOMBRE_ALUMNO;
+		p.apellidos = kAPELLIDOS_ALUMNO;
+		p.ciclo_formativo = kCICLO_FORMATIVO;
+		p.anyo = kANYO;
 		
 		System.out.println(p.toString());
 

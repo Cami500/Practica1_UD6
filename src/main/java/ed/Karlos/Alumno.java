@@ -1,7 +1,8 @@
 package ed.Karlos;
 
+
+
 public class Alumno {
-	
 	
 	public String nombre;
 	public String apellidos;
@@ -11,10 +12,10 @@ public class Alumno {
 	@Override
 	public String toString() {
 		
-		return  "n = " + nombre + System.lineSeparator() +
-				"c = " + apellidos + System.lineSeparator() +
-				"a = " + anyo + System.lineSeparator() +
-				"cl = " + ciclo_formativo;
+		return  "nombre = " + nombre + System.lineSeparator() +
+				"apellidos = " + apellidos + System.lineSeparator() +
+				"anyo = " + anyo + System.lineSeparator() +
+				"ciclo_formativo = " + ciclo_formativo;
 				
 		
 	}
