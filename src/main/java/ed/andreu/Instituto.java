@@ -9,10 +9,10 @@ public class Instituto {
 	public static void main(String[] args) {
 		Alumno p = new Alumno();
 		
-		p.nombre = "Andreu";
-		p.apellidos = "Puchades Pascual";
-		p.cicloFormativo = "1º DAW";
-		p.cualquiera = 2023;
+		p.nombre = kNOMBRE_ALUMNO;
+		p.apellidos = kAPELLIDOS_ALUMNO;
+		p.cicloFormativo = kCICLO_FORMATIVO;
+		p.cualquiera = kANYO;
 		
 		System.out.println(p.toString());
 	}
