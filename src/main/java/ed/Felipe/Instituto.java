@@ -1,18 +1,18 @@
 package ed.Felipe;
 
-public class Escuela {
+public class Instituto {
 
 	public static void main(String[] args) {
 		
-		Persona p = new Persona();
+		Alumno p = new Alumno();
 
 		String camilo = "Camilo";
-		p.n = camilo;
+		p.nombre = camilo;
 		String juan = "Juan";
-		p.c = juan;
+		p.apellidos = juan;
 		String cl = "1º DAM/DAW";
-		p.cl = cl;
-		p.a = 2023;
+		p.ciclo_formativo = cl;
+		p.anyo = 2023;
 		
 		System.out.println(p.toString());
 
