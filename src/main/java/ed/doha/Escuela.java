@@ -1,16 +1,16 @@
 package ed.doha;
 
-public class Instituto {
+public class Escuela {
 
 	public static void main(String[] args) {
 		
 		Persona p = new Persona();
 		
-		p.nombre = "Doha";
-		p.apellidos = "Aliat";
-		p.cicloFormativo = "1º DAW";
-		p.anyo = 2023;
-		
+		p.n = "Doha";
+		p.c = "Aliat";
+		p.cl = "1º DAW";
+		p.a = 2023;
+
 		System.out.println(p.toString());
 
 	}
