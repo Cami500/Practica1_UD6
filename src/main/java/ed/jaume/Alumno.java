@@ -11,10 +11,10 @@ public class Alumno {
 	@Override
 	public String toString() {
 		
-		return  "n = " + nombre + System.lineSeparator() +
-				"c = " + apellido + System.lineSeparator() +
-				"a = " + anyo + System.lineSeparator() +
-				"cl = " + cicloformativo;
+		return  "nombre = " + nombre + System.lineSeparator() +
+				"apellido = " + apellido + System.lineSeparator() +
+				"anyo = " + anyo + System.lineSeparator() +
+				"cicloformativo = " + cicloformativo;
 				
 		
 	}
