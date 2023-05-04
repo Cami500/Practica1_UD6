@@ -1,4 +1,4 @@
-package ed.camilo;
+package ed.marcos;
 
 public class Persona {
 	
