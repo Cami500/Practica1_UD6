@@ -13,7 +13,8 @@ Realiza un *fork* del proyecto que se encuentra en: <https://github.com/Cami500/
 
 ## 1. Realiza los siguientes cambios en el código
 
-* Renombra el paquete `ed.erika` a `ed.<tu_nombre>`
+
+* Renombra el paquete `ed.doha` a `ed.<tu_nombre>`
 * Renombra las cadenas que se encuentran definidas en el método `main` de la classe `Escuela`.
 
 > Ejecuta el código y realiza una captura del resultado en consola.
